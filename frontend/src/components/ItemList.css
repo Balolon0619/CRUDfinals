@@ -1,0 +1,45 @@
+/* ItemList.css */
+
+.item-list-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.item-list-container h1 {
+    color: #333;
+    text-align: center;
+}
+
+.item-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.item-list li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-list li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.item-list li button.edit-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.item-list li button.delete-button {
+    background-color: #f44336;
+    color: white;
+}
